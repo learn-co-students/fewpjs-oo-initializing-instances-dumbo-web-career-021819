@@ -14,10 +14,10 @@ describe("lunch", () => {
     expect(new Lunch()).to.be.an.instanceof(Lunch);
   })
   it("creates a new lunch with the correct parameters", () => {
-    newlunch = new Lunch('side salad', 'broccoli cheddar soup', 'iced tea')
-    expect(newlunch.salad).to.equal('side salad')
-    expect(newlunch.soup).to.equal('broccoli cheddar soup')
-    expect(newlunch.drink).to.equal('iced tea')
+    newLunch = new Lunch('side salad', 'broccoli cheddar soup', 'iced tea')
+    expect(newLunch.salad).to.equal('side salad')
+    expect(newLunch.soup).to.equal('broccoli cheddar soup')
+    expect(newLunch.drink).to.equal('iced tea')
   })
 })
 
@@ -26,10 +26,10 @@ describe("dinner", () => {
     expect(new Dinner()).to.be.an.instanceof(Dinner);
   })
   it("creates a new dinner with the correct parameters", () => {
-    newdinner = new Dinner('balsamic salad', 'consomme', 'filet mignon', 'cheesecake')
-    expect(newdinner.salad).to.equal('balsamic salad')
-    expect(newdinner.soup).to.equal('consomme')
-    expect(newdinner.entree).to.equal('filet mignon')
-    expect(newdinner.dessert).to.equal('cheesecake')
+    newDinner = new Dinner('balsamic salad', 'consomme', 'filet mignon', 'cheesecake')
+    expect(newDinner.salad).to.equal('balsamic salad')
+    expect(newDinner.soup).to.equal('consomme')
+    expect(newDinner.entree).to.equal('filet mignon')
+    expect(newDinner.dessert).to.equal('cheesecake')
   })
 })
